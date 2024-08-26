@@ -13,7 +13,7 @@ body {
   }
   
   .actor-line {
-    stroke: grey;
+    stroke: red;
   }
   
   .messageLine0 {

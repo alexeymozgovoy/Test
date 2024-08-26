@@ -1,11 +1,7 @@
 ```mermaid
-sequenceDiagram
-    participant partner as Partner
-    participant webService4 as WebService4
-    partner->>+ webService4: Request
-    rect rgb(70, 70, 70)
-    webService4->webService4: Deserialize<br/>Request Payload
-    end
-    webService4->>- partner: Response
-
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
